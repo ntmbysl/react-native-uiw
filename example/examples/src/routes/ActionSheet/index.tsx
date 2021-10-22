@@ -16,7 +16,7 @@ export default class Index extends Component<IndexProps, IndexState> {
   constructor(props: IndexProps) {
     super(props);
     this.state = {
-      visible: false,
+      visible: false
     };
   }
   onOpen = () => {
